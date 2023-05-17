@@ -1,0 +1,17 @@
+{
+	"short_name": "moments",
+	"name": "Moments",
+	"description": "Um blog feito para guardar seus bons momentos.",
+	"icons": [
+		{
+			"src": "logo.png",
+			"sizes": "1024x1024",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#ffffff",
+	"background_color": "#000000"
+}
