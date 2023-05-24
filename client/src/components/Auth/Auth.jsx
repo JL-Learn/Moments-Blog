@@ -13,7 +13,7 @@ import UserIcon from '../UserIcon/UserIcon'
 import { styled } from '@mui/material/styles'
 
 const initialState = { firstName: '', lastName: '', email: '', password: '', confirmPassword: '', remember: false }
-const CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID
+const CLIENT_ID = "564033717568-bu2nr1l9h31bhk9bff4pqbenvvoju3oq.apps.googleusercontent.com";
 
 const Auth = ({ snackBar }) => {
 	const [showPassword, setShowPassword] = useState(false)
