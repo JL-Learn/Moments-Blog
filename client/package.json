@@ -16,6 +16,7 @@
 		"avataaars": "^2.0.0",
 		"axios": "^0.26.0",
 		"browser-image-compression": "^1.0.17",
+		"build": "^0.1.4",
 		"classnames": "^2.3.1",
 		"jwt-decode": "^3.1.2",
 		"lodash": "^4.17.21",
@@ -33,6 +34,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"test": "react-scripts  test",
+		"build": "node build.js",
 		"eject": "react-scripts --openssl-legacy-provider eject"
 	},
 	"eslintConfig": {

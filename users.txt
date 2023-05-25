@@ -32,3 +32,14 @@ lucao
 
 lisa-thompson@gmail.com
 lisa-123
+
+
+----------------------------------
+Deploy Blog
+
+No site render.com:
+
+npm
+npm install
+inserir as variáveis de ambiente
+npx nodemon

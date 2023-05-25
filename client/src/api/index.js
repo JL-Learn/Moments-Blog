@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const apiURL = ['https://moments.com', 'http://localhost:5000']
+const apiURL = ['https://moments.com', 'https://moment-blog-rouw.onrender.com']
 const API = axios.create({ baseURL: apiURL[1] })
 
 API.interceptors.request.use((req) => {
